@@ -1,39 +1,42 @@
-# Simple Faucet Script
-Bitcoin Faucet integrated with banlist and VPN/Proxy Shield. It uses the service of Google reCaptcha (v2; box) and IPHub. Any claims will be saved in the account balance and can be withdrawn to ExpressCrypto, FaucetPay or directly using Block.io
+TRADUÇÃO PT-BR
 
-# Mininum Requirements
+# Script de torneira simples
+Bitcoin Faucet integrado com banlist e VPN / Proxy Shield. Ele usa o serviço do Google reCaptcha (v2; box) e IPHub. Quaisquer reclamações serão salvas no saldo da conta e podem ser retiradas para ExpressCrypto, FaucetPay ou diretamente usando Block.io
 
-* PHP >= 5.4 (tested on 5.6), please do not use PHP 7.0 or higher
-* PHP Extensions: cURL and GMP
+# Requisitos mínimos
+
+* PHP> = 5.4 (testado em 5.6), não use PHP 7.0 ou superior
+* Extensões PHP: cURL e GMP
 * MySQL
 
-# Installation
+# Instalação
 
-1. Download the files
+1. Baixe os arquivos
 
-2. Upload to your FTP Server
+2. Faça upload para o seu servidor FTP
 
-3. Upload the sql.sql using PHPMyAdmin
+3. Carregue o sql.sql usando PHPMyAdmin
 
-4. Change in includes/config.php the MySQL Connection and the website url (e.g. http://example.org/faucet)
+4. A alteração inclui / config.php a conexão MySQL e o URL do site (por exemplo, http://example.org/faucet)
 
-5. Open http://yourdomain.de/admin.php and enter the following login datas:
+5. Abra http://yourdomain.de/admin.php e insira os seguintes dados de login:
 
 Admin Username: admin
 
 Admin Password: admin
 
-Now you're on the admin site and change the configuration to run your faucet!
+Agora você está no site do administrador e altere a configuração para executar sua torneira!
+
 
 # Demo
 
 A demo is avaible: http://salmen.website/Faucet/
 
 
-# Fee
+# Free
 
-Free. No hidden fees are applied.
+Livre. Sem taxas ocultas são aplicadas.
 
-# Terms and Conditions
+# Termos e Condições
 
-You have the rights to modify the code, as long as you do not remove the license.
+Você tem o direito de modificar o código, desde que não remova a licença.
